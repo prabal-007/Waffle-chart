@@ -81,10 +81,10 @@ def create_waffle_chart(categories, values, height, width, colormap, value_sign=
     )
 
     
-    width = 40 # width of chart
-height = 10 # height of chart
+#     width = 40 # width of chart
+# height = 10 # height of chart
 
-categories = df........ # categories
-values = df.............] # correponding values of categories
+# categories = df........ # categories
+# values = df.............] # correponding values of categories
 
-colormap = plt.cm.coolwarm # color map class
+# colormap = plt.cm.coolwarm # color map class
