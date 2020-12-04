@@ -31,7 +31,7 @@ def create_waffle_chart(categories, values, height, width, colormap, value_sign=
             # is equal to its corresponding allocated tiles...
             if tile_index > sum(tiles_per_category[0:category_index]):
                 # ...proceed to the next category
-                category_index += 1       
+                category_index += 1      
             
             # set the class value to an integer, which increases with class
             waffle_chart[row, col] = category_index
